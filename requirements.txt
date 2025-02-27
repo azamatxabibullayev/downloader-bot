@@ -7,6 +7,7 @@ attrs==25.1.0
 Brotli==1.1.0
 certifi==2025.1.31
 charset-normalizer==3.4.1
+dotenv==0.9.9
 frozenlist==1.5.0
 idna==3.10
 magic-filter==1.0.12
@@ -16,6 +17,7 @@ propcache==0.3.0
 pycryptodomex==3.21.0
 pydantic==2.8.2
 pydantic_core==2.20.1
+python-dotenv==1.0.1
 requests==2.32.3
 typing_extensions==4.12.2
 urllib3==2.3.0
