@@ -1,6 +1,5 @@
 import os
 import shutil
-
 from aiogram import Dispatcher
 from aiogram.types import (
     ReplyKeyboardMarkup,
@@ -11,7 +10,6 @@ from aiogram.types import (
 )
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
-
 from bot.states import DownloadState
 from bot.utils import fetch_formats, download_media
 from bot.database import cr, db
@@ -29,7 +27,7 @@ def register_handlers(dp: Dispatcher):
 
 async def send_welcome(message: Message):
     await message.reply(
-        "Welcome to Video Downloader bot! You can download from Instagram, Tiktok, Youtube!\nSend /download to start downloading.\nSend /cancel to cancel at any time."
+        "Welcome to Video Downloader bot! You can download videos from Instagram and  Youtube!\nSend /download to start downloading.\nSend /cancel to cancel at any time."
     )
 
 
